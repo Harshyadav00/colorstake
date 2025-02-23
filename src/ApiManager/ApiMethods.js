@@ -1,5 +1,5 @@
 
-const BASE_URL = 'https://colorstake-backend.onrender.com/api';
+const BASE_URL = 'https://localhost:8080/api';
 // const BASE_URL = 'http://localhost:8080/api';
 
 const getHeaders = () => {
