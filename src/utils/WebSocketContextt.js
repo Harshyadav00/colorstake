@@ -38,7 +38,7 @@ export const WebSocketProvider = ({ children }) => {
 
             fetchInitialData();
 
-            const socket = new SockJS('https://colorstake-backend-production.up.railway.app/ws');
+            const socket = new SockJS('https://colorstake-backend.onrender.com/ws');
             const stompClient = new Client({
                 webSocketFactory: () => socket,
                 reconnectDelay: 5000,
